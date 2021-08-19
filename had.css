@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; 
+}
+
+.header {
+    background-image: url(image/banner.jpg);
+    height: 100vh;
+    background-position: center;
+    border-radius: 0px 0px 170px 170px;
+    border: 1px solid  #d8516e; 
+}
+.navbar{
+    top: 113px;
+}
+
+.navbar .container{
+   
+    border: 1px solid white;
+    height: 71px;
+   align-items: center;
+   border-radius: 30px;
+   background-color: white;
+        
+}
+.navbar .container .collapse .navbar-nav a{
+  
+    color: #d8516e;
+    font-size: 20px;
+    
+}
+/* end header */
+
+
+.cover p:first-child{
+    font-size: 50px;
+    font-family:'Dancing Script',cursive;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+ .container .cover p:nth-child(2) {
+    font-size:70px;
+     font-family: 'Dancing Script', cursive;
+      color: white;
+        
+    
+}
+
+  button {
+    font-size: 20px;
+    padding: 12px;
+    width: 18%;
+    margin-top: 40px;
+   
+   
+}
+.b1{
+    border: 1px solid white;
+    background-color: white;
+    color: #d8516e;
+}
+.b1:hover{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border-color: black;
+    transition: 1s;
+}
+
+/*end cover*/
+.contant .container .p p:first-child{
+    color: black;
+    font-size: 60px;
+   border-bottom: 2px solid #d8516e;
+    text-decoration-color:#d8516e;
+    font-family: 'Dancing Script', cursive;
+    width: 558px;
+   margin: 10px auto;
+    font-weight: bold;
+    
+}
+.contant .p p :nth-child(2){
+    margin-top: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+
+.contant .img p img{
+    border: 15px solid #d8516e;
+    border-radius: 100%; 
+    
+}
+
+.contant .p2 p:first-child {
+    font-family: 'STIX Two Text', serif;
+    margin-bottom: 10px;
+     font-size: 20px;
+    padding: 20px 0;
+    width: 70%;
+    text-align: center;
+   margin: 30px auto;
+}
+
+.b2{
+   
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+    margin-top: 16px;
+   
+   
+}
+
+.b2:hover{
+    background-color: #d8516e;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    transition: 1s;
+}
+/*end contant*/
+.about .p p:first-child{
+    color: white;
+    font-size: 60px;
+    width:600px;
+   border-bottom: 2px solid white;
+    text-decoration-color:#d8516e;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 10px;
+    margin:10px auto;
+}
+.about{
+    background-color: #d8516e;
+    height: 800px;
+    width: 100%;
+    margin-top: 20px;
+}
+.about .p p:nth-child(2){
+     margin-top: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+    
+.about  .f{
+   margin-top: 30px; 
+}
+.about .f p img{
+    padding:30px 40px 10px 30px;
+    border: 4px solid white;
+     margin-bottom: 30px;
+    width: 160px;
+    border-radius: 85px;
+    height: 160px;
+}
+.about .f p img:hover {
+    width: 140px;
+    height: 140px;
+    transition: 0.2s;
+   
+}
+.about .f p img:hover + .f {
+    margin-top: 15px;
+}
+.about  .f span{
+    font-size: 30px;
+    color: white;
+    align-content: center;
+    padding-bottom: 25px;
+    width: 700px;
+  
+}
+
+.about  .f p:last-child{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width:350px;
+   
+}
+.b3{
+    
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+}
+.b3:hover {
+     background-color: black;
+    border-radius: 30px;
+    color: white;
+    border-color: black;
+    transition: 1s;
+}
+
+/*end about*/
+.input {
+    height: 600px;
+    width: 100%;
+   
+}
+.input  .container .p h2{
+    color: black;
+    font-size: 50px;
+   margin: 60px auto;
+    width: 300px;
+   border-bottom: 2px solid #d8516e;
+    text-decoration-color:#d8516e;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 10px; 
+    
+    
+}
+.input .p p{
+    
+    margin-top: 30px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+
+.input  form {
+    margin-top: 30px;
+}
+.input  form div{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.input  form div input{
+    font-size: 20px;
+      width:100%;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+.b4{
+    
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+
+}
+.b4:hover{
+    background-color: #d8516e;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    transition: 1s;
+}
+/*end input*/
+
+.end {
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    
+}
+
+.end div p:first-child{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color:#d8516e ;
+
+    }
+
+.end div p:nth-child(2){
+    font-size: 75px;
+     font-family: 'Dancing Script', cursive;
+      color: white;
+    
+    border-bottom: 1px solid white;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+.end div p:last-child{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+/**/
+@media (max-width:980px){
+
+    button{
+        width:250px ;
+    }
+    .navbar-toggler{
+        margin-top: 0;
+        border: 0;
+        width: unset;
+    }
+    .about{
+        height:843px;
+    }
+    .end div p:nth-child(2){
+        width: 711px;
+        font-size: 65px;
+    }
+    .about  .f span{
+        font-size: 26px;
+    }
+    .about .f p:last-child{
+        width: 225px;
+        font-size: 17px;
+    }
+
+@media (max-width:767px){
+
+    .contant .container .p p:first-child,
+    .about .p p:first-child,
+    .input  .container .p h2{
+        width: 350px ;
+        font-size: 40px;
+    }
+   .header{
+       height: 642px;
+   }
+   button{
+    width:250px ;
+}
+  .navbar-toggler{
+      margin-top: 0;
+      border: 0;
+      width: unset;
+  }
+  .cover p:first-child{
+      font-size: 33px;
+  }
+  .container .cover p:nth-child(2){
+      font-size: 45px;
+  }
+  .contant .p2 p:first-child{
+      margin-left: unset;
+      width: unset;
+      padding: unset;
+      font-size: 17px;
+  }
+  .about{
+      height: 1620px;
+  }
+  .about .f p:last-child {
+   width: 396px;
+  }
+  .input{
+      height: 675px;
+  }
+  .end div p:first-child{
+      font-size:40px;
+  }
+  .end{
+      height: 394px;
+  }
+  .end div p:nth-child(2){
+      width: unset;
+      font-size: 36px;
+  }
+  form .row{
+      width: 411px;
+  }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+}
